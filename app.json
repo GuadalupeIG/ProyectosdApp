@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "studify",
+    "slug": "studify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-nombre.jpeg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-nombre.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-nombre.jpeg",
+        "backgroundColor": "#000000"
+      }},
+  "web": {
+      "favicon": "./assets/logoc.png"
+    }
+  }
+}
+
