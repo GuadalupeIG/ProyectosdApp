@@ -39,12 +39,12 @@ const attributeList = [];
 
 const dataEmail = {
     Name: 'email',
-    Value: 'jpaz7913@gmail.com'
+    Value: 'maremmatole@gmail.com'
 };
 
 const dataphoneNumber = {
     Name: 'phone_number',
-    Value: '+525584696772'
+    Value: '+527774766371'
 }
 
 const attributeEmail = new CognitoUserAttribute(dataEmail)
@@ -53,7 +53,7 @@ attributeList.push(attributeEmail)
 attributeList.push(attributePhoneNumber)
 
 
-userPool.signUp('username1', 'password', attributeList, null, (err, result) => {
+userPool.signUp('username2', 'Password123!', attributeList, null, (err, result) => {
     if(err) {
         console.log(err);
         return;
