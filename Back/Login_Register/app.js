@@ -1,4 +1,6 @@
 const express = require("express");
+const React = require('react');
+//const SignUpComponent = require('../../Front/App.jsx'); 
 const morgan = require("morgan");
 const indexRoutes = require("./routes/index.routes.js");
 
